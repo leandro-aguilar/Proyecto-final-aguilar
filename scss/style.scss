@@ -65,14 +65,13 @@ main{
         margin-bottom: 1.5rem;
     }
     .div-v{
-         display: grid;
-         justify-content: center;  
+        display: grid;
+        justify-content: center;
+        height: 300px;
     }
     .video{
-        align-items: center;
-        padding: 1rem;
-        width: 100%;
-        height: auto;
+        width: 400px;
+        height: 300px;
     }
     .div-img{
         display: grid;
@@ -87,19 +86,31 @@ main{
     .div-mapa{
         display: grid;
         justify-content: center;
-       margin:1.5rem;
+        height: 300px;
+        margin: 1.5rem;
     }
     .mapa{
-        width: 100%;
+       width: 400px;
+       height: 300px;
     }
     li{
         list-style: none
     }
+    .estilo-clientes{
+        display: grid;
+        justify-items: center;
+    }
     .comentarios{
-        background-color:rgb(46, 46, 223);
-        border-radius: 3%;
-        margin: 0.5rem;
+        background-color:$color-tercero;
+        border-style: solid;
+        border-width: 5px;
+        border-color:$color-secundario ;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 1rem;
         padding: 0.5rem;
+        font-size: 30px;
     }
     .contenedor{
         display: grid;
@@ -156,7 +167,6 @@ main{
     }
     }
 
-
 footer{
     margin-top: auto;
     .div-pie{
@@ -167,12 +177,23 @@ footer{
     .pie{
         text-align: center;
     }
-
+    .divs-iconos{
+        display: flex;
+        flex-direction: row;
+    }
+    .div-icon{
+        display:grid;
+        justify-content: right;
+    }
+    .ico-size{
+        margin: 0.5rem;
+        width: 30px;
+        height: auto;
+    }
 }
 /* estilos de tablet */
 
-@media screen and (min-width:600px){
-
+@media screen and (min-width:600px) and (max-width:1024px){
     main{
         .contenedor{
         grid-template-columns: repeat(2, 1fr) ;
@@ -182,8 +203,20 @@ footer{
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
         }
-   }
-}
+        .video{
+            width: 500px;
+            height: 300px;
+        }
+        .div-mapa{
+            height: 400px;
+            margin: 1.5rem;
+        }
+        .mapa{
+            height: 400px;
+            width: 700px;
+        }
+        }
+    }
 
 /* estilos de pc */
 
@@ -215,9 +248,20 @@ footer{
             width: 1000px;
         }
         .div-v{
-            display: grid;
-            justify-content: center;
-    
+            width: auto;
+            height: 500px;
         }
-    }
+        .video{
+            width: 800px;
+            height: 500px;
+        }
+        .div-mapa{
+            height: 500px;
+            margin: 1.5rem;
+        }
+        .mapa{
+            height: 500px;
+            width: 800px;
+        }
+}
 }
