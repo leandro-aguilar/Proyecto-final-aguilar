@@ -37,8 +37,6 @@ header {
     color: whitesmoke; }
 
 /* main */
-main {
-  /* index */ }
   main .h2-index {
     background-color: #343132;
     text-align: center; }
@@ -88,10 +86,7 @@ main {
     border-style: solid;
     border-width: 5px;
     border-color: #7c336a;
-    margin-top: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 1rem;
+    margin: 5rem 1rem 5rem 1rem;
     padding: 0.5rem;
     font-size: 30px; }
   main .contenedor {
