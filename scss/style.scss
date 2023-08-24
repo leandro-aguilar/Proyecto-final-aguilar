@@ -125,9 +125,8 @@ main{
         opacity: 0.2;
         filter: blur(10px);
         filter: grayscale(30%);
-    }
+    }  
 
-/* index */
 .contenedor-index{
     display: grid;
     justify-content: center;
@@ -199,6 +198,11 @@ footer{
         .contenedor-index{
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
+        }
+        .div-v{
+            display: grid;
+            justify-content: center;
+            height: 300px;
         }
         .video{
             width: 500px;
