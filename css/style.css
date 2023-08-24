@@ -37,8 +37,6 @@ header {
     color: whitesmoke; }
 
 /* main */
-main {
-  /* index */ }
   main .h2-index {
     background-color: #343132;
     text-align: center; }
@@ -170,7 +168,7 @@ footer {
     margin: 1.5rem; }
   main .mapa {
     height: 400px;
-    width: 700px; } }
+    width: 500px; } }
 
 /* estilos de pc */
 @media screen and (min-width: 1024px) {
