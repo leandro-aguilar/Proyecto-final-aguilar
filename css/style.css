@@ -37,6 +37,8 @@ header {
     color: whitesmoke; }
 
 /* main */
+main {
+  /* index */ }
   main .h2-index {
     background-color: #343132;
     text-align: center; }
@@ -74,7 +76,7 @@ header {
     height: 300px;
     margin: 1.5rem; }
   main .mapa {
-    width: 400px;
+    width: 300px;
     height: 300px; }
   main li {
     list-style: none; }
