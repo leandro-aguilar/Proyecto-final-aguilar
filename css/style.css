@@ -152,6 +152,55 @@ main .img-clientes {
   height: auto;
   border-radius: 5%; }
 
+main .form-register {
+  width: 400px;
+  background: #343132;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+
+main .form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+main .controls {
+  width: 100%;
+  background: #343132;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #7c336a;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white; }
+
+main .form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px; }
+
+main .form-register a {
+  color: white;
+  text-decoration: none; }
+
+main .form-register a:hover {
+  color: white;
+  text-decoration: underline; }
+
+main .form-register .botons {
+  width: 100%;
+  background: #7c336a;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px; }
+
 footer {
   margin-top: auto; }
   footer .div-pie {
